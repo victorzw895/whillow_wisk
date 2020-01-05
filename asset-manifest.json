@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/whillow-wisk/static/css/main.c82f678d.chunk.css",
+    "main.js": "/whillow-wisk/static/js/main.a5651957.chunk.js",
+    "main.js.map": "/whillow-wisk/static/js/main.a5651957.chunk.js.map",
+    "runtime-main.js": "/whillow-wisk/static/js/runtime-main.6607d374.js",
+    "runtime-main.js.map": "/whillow-wisk/static/js/runtime-main.6607d374.js.map",
+    "static/js/2.7300d073.chunk.js": "/whillow-wisk/static/js/2.7300d073.chunk.js",
+    "static/js/2.7300d073.chunk.js.map": "/whillow-wisk/static/js/2.7300d073.chunk.js.map",
+    "index.html": "/whillow-wisk/index.html",
+    "precache-manifest.7e3e28a9c0d8e85a63132b0d79285b4f.js": "/whillow-wisk/precache-manifest.7e3e28a9c0d8e85a63132b0d79285b4f.js",
+    "service-worker.js": "/whillow-wisk/service-worker.js",
+    "static/css/main.c82f678d.chunk.css.map": "/whillow-wisk/static/css/main.c82f678d.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6607d374.js",
+    "static/js/2.7300d073.chunk.js",
+    "static/css/main.c82f678d.chunk.css",
+    "static/js/main.a5651957.chunk.js"
+  ]
+}
