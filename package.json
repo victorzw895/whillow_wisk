@@ -2,7 +2,7 @@
   "name": "whillow-whisk",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://victorzw895.github.io/whillow-wisk",
+  "homepage": "https://victorzw895.github.io/whillow_wisk/",
   "dependencies": {
     "draft-js": "^0.11.1",
     "draft-js-export-html": "^1.4.1",
