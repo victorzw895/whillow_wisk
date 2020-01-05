@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37a6d71dc2e1085e09c3141a5e716e01",
+    "revision": "4940f75fd13bdf5a78907c53bff2e78e",
     "url": "/whillow_wisk/index.html"
   },
   {
-    "revision": "013bd066dc53e2ac5842",
+    "revision": "e705031ca69e2ad7ed4d",
     "url": "/whillow_wisk/static/css/main.c82f678d.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whillow_wisk/static/js/2.b3cf0d6e.chunk.js"
   },
   {
-    "revision": "013bd066dc53e2ac5842",
-    "url": "/whillow_wisk/static/js/main.25ba967f.chunk.js"
+    "revision": "e705031ca69e2ad7ed4d",
+    "url": "/whillow_wisk/static/js/main.0402aea0.chunk.js"
   },
   {
     "revision": "866161f94831dd3bc729",
