@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/whillow_wisk/precache-manifest.932749e850df9ce7067c9a0a0186f061.js"
+  "/whillow_wisk/precache-manifest.78d9d9a9bdbfd71888cc88b64b77a9c0.js"
 );
 
 self.addEventListener('message', (event) => {
