@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <h2>Send us an Enquiry:</h2>
+      <h2>CONTACT US</h2>
       <div id="contact">
         <input placeholder="Name"></input>
         <input placeholder="E-mail"></input>

@@ -4,7 +4,7 @@ body {
   margin: 0;
   background-color: #ffe3ed;
   color: #01161e;
-
+  height: 100%;
   /* \
   color: #090C08;
   color: #65DEF1;
@@ -30,8 +30,13 @@ body {
 
 #mainComponent {
   margin: 0 auto;
-  height: 55.7vh;
+  min-height: 50.55vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 50px;
   width: 1170px;
+  text-align: center;
 }
 
 code {
@@ -99,8 +104,9 @@ a {
 
 /* Footer Component */
 #footer {
+  position: relative;
   width: 100%;
-  background-color: #f67280;
+  background-color: #d19814;
   display: inline-flex;
   justify-content: space-around;
 }
@@ -114,9 +120,22 @@ a {
 
 /* Location Component */
 #contact {
-  height: 30vh;
+  margin: 0 auto;
   width: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+#contact input,
+#contact textarea,
+#contact button {
+  padding: .75rem;
+  font-size: 1rem;
+  font-family: "Quattrocento Sans";
+  margin: 1rem;
+}
+
+#contact textarea {
+  height: 90px;
 }

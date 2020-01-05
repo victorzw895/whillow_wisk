@@ -17,8 +17,8 @@ const App = () => {
         </h1>
         <NavBar />
         <div id="mainComponent">{Routes}</div>
+        <Footer></Footer>
       </div>
-      <Footer></Footer>
     </Router>
   );
 };
