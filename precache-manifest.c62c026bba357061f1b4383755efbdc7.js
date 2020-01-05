@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06a537efc50d95a427a22957723f210f",
+    "revision": "ee22308ae75dfcdd21a7d1f5e17d3cb1",
     "url": "/whillow-wisk/index.html"
   },
   {
-    "revision": "af2561172dbf6788f371",
+    "revision": "b9c4e6c7a089d697bd55",
     "url": "/whillow-wisk/static/css/main.c82f678d.chunk.css"
   },
   {
-    "revision": "86a01b6adbc7ad0f15c1",
-    "url": "/whillow-wisk/static/js/2.7300d073.chunk.js"
+    "revision": "9c50a6c39fa83db51e06",
+    "url": "/whillow-wisk/static/js/2.b3cf0d6e.chunk.js"
   },
   {
-    "revision": "af2561172dbf6788f371",
-    "url": "/whillow-wisk/static/js/main.a5651957.chunk.js"
+    "revision": "b9c4e6c7a089d697bd55",
+    "url": "/whillow-wisk/static/js/main.21535823.chunk.js"
   },
   {
     "revision": "9c14764f7d88e344f7a5",
