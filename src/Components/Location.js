@@ -7,12 +7,12 @@ const Location = () => {
 
   return (
     <div>
-      <h2>Find Us At</h2>
+      <h2>LOCATION</h2>
       <div id="location">
         <div>
-          <p>Address</p>
-          <p>Suburb</p>
-          <p>City</p>
+          <p>123 Some Address Road</p>
+          <p>SUBURB, 4567</p>
+          <p>Indonesia</p>
           <p>Hours</p>
         </div>
         <div

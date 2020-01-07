@@ -119,7 +119,7 @@ a {
 }
 
 /* Location Component */
-#contact {
+.contact {
   margin: 0 auto;
   width: 50vh;
   display: flex;
@@ -127,15 +127,15 @@ a {
   justify-content: space-evenly;
 }
 
-#contact input,
-#contact textarea,
-#contact button {
+.contact input,
+.contact textarea,
+.contact button {
   padding: .75rem;
   font-size: 1rem;
   font-family: "Quattrocento Sans";
   margin: 1rem;
 }
 
-#contact textarea {
+.contact textarea {
   height: 90px;
 }

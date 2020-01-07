@@ -1,18 +1,81 @@
-import React from "react";
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [emailSent, setEmailSent] = useState(false);
+
+  const handleSubmit = e => {
+    e.preventDefault();
+    const templateParams = { email, name, message };
+
+    emailjs
+      .sendForm(
+        "gmail",
+        "template_r429qmDf",
+        e.target,
+        "user_AJeRLl5o14mlIp5AH6Lyk"
+      )
+      .then(
+        result => {
+          console.log(result.text);
+          setEmailSent(true);
+        },
+        error => {
+          console.log(error.text);
+        }
+      );
+  };
+  const form = (
+    <form className="contact" onSubmit={handleSubmit}>
+      <input
+        placeholder="Name"
+        type="text"
+        value={name}
+        name="name"
+        onChange={e => {
+          setName(e.target.value);
+        }}
+      ></input>
+      <input
+        placeholder="E-mail"
+        type="email"
+        value={email}
+        name="email"
+        onChange={e => {
+          setEmail(e.target.value);
+        }}
+      ></input>
+      <textarea
+        placeholder="Your message..."
+        style={{ resize: "none" }}
+        name="message"
+        value={message}
+        onChange={e => {
+          setMessage(e.target.value);
+        }}
+      ></textarea>
+      <input
+        type="submit"
+        value="send"
+        disabled={name && email && message ? false : true}
+      />
+    </form>
+  );
+
+  const successMessage = (
+    <div>
+      <p>Thank you!</p>
+      <p>We have received your enquiry!</p>
+    </div>
+  );
+
   return (
     <div>
       <h2>CONTACT US</h2>
-      <div id="contact">
-        <input placeholder="Name"></input>
-        <input placeholder="E-mail"></input>
-        <textarea
-          placeholder="Your message..."
-          style={{ resize: "none" }}
-        ></textarea>
-        <button>Send</button>
-      </div>
+      {emailSent ? successMessage : form}
     </div>
   );
 };
