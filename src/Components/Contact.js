@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
+const emailType = process.env.REACT_APP_EMAIL_TYPE;
+const templateId = process.env.REACT_APP_TEMPLATE_ID;
+const userId = process.env.REACT_APP_USER_ID;
+
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -11,22 +15,15 @@ const Contact = () => {
     e.preventDefault();
     const templateParams = { email, name, message };
 
-    emailjs
-      .sendForm(
-        "gmail",
-        "template_r429qmDf",
-        e.target,
-        "user_AJeRLl5o14mlIp5AH6Lyk"
-      )
-      .then(
-        result => {
-          console.log(result.text);
-          setEmailSent(true);
-        },
-        error => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(emailType, templateId, e.target, userId).then(
+      result => {
+        console.log(result.text);
+        setEmailSent(true);
+      },
+      error => {
+        console.log(error.text);
+      }
+    );
   };
   const form = (
     <form className="contact" onSubmit={handleSubmit}>
